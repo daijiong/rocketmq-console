@@ -1,0 +1,24 @@
+server:
+  port: 7298
+spring:
+  profiles:
+    active: @profile.name@
+  application:
+    name: rocketmq-console
+  cloud:
+    nacos:
+      config:
+        file-extension: yaml
+        server-addr: @config.server-addr@
+        namespace: @config.namespace@
+        group: ${spring.application.name}
+        extension-configs:
+          - data-id: management.yaml
+            group: COMMON
+            refresh: true
+          - data-id: feign.yaml
+            group: COMMON
+            refresh: true
+      discovery:
+        server-addr: ${spring.cloud.nacos.config.server-addr}
+        namespace: @config.namespace@
