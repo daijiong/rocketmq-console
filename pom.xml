@@ -318,11 +318,11 @@
                 <!--当前环境-->
                 <profile.name>dev</profile.name>
                 <!--Nacos配置中心地址-->
-                <config.server-addr>http://192.168.247.132</config.server-addr>
+                <config.server-addr>http://47.100.227.235:8848</config.server-addr>
                 <!--Nacos配置中心命名空间,用于支持多环境.这里必须使用ID，不能使用名称,默认为空-->
                 <config.namespace>3f8cc313-c19e-4e89-941a-568cb1be29a1</config.namespace>
                 <!--Nacos服务发现地址-->
-                <discovery.server-addr>http://192.168.247.132</discovery.server-addr>
+                <discovery.server-addr>http://47.100.227.235:8848</discovery.server-addr>
             </properties>
         </profile>
         <!-- 测试 -->
@@ -332,11 +332,11 @@
                 <!--当前环境-->
                 <profile.name>test</profile.name>
                 <!--Nacos配置中心地址-->
-                <config.server-addr>http://192.168.247.132</config.server-addr>
+                <config.server-addr>http://47.100.227.235:8848</config.server-addr>
                 <!--Nacos配置中心命名空间,用于支持多环境.这里必须使用ID，不能使用名称,默认为空-->
                 <config.namespace>132b0fc9-13fe-4c1d-8f4c-9fbc41ee8b90</config.namespace>
                 <!--Nacos服务发现地址-->
-                <discovery.server-addr>http://192.168.247.132</discovery.server-addr>
+                <discovery.server-addr>http://47.100.227.235:8848</discovery.server-addr>
             </properties>
         </profile>
     </profiles>
