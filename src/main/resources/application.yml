@@ -55,7 +55,7 @@ rocketmq:
     isVIPChannel: ''
     loginRequired: true
     msgTrackTopicName: ''
-    namesrvAddr: 172.19.67.23:9876
+    namesrvAddr: 47.100.227.235:9876
 #    namesrvAddr: 192.168.247.130:9876;192.168.247.131:9876
     ticketKey: ticket
 
