@@ -1,22 +1,22 @@
-management:
-  endpoints:
-    web:
-      exposure:
-        include: '*'
-      base-path: /actuator
-  endpoint:
-    logfile:
-      external-file: ./log/info.log
-    shutdown:
-      enabled: false
-  metrics:
-    export:
-      prometheus:
-        enabled: true
-      jmx:
-        enabled: true
-    tags:
-      application: ${spring.application.name}
+#management:
+#  endpoints:
+#    web:
+#      exposure:
+#        include: '*'
+#      base-path: /actuator
+#  endpoint:
+#    logfile:
+#      external-file: ./log/info.log
+#    shutdown:
+#      enabled: false
+#  metrics:
+#    export:
+#      prometheus:
+#        enabled: true
+#      jmx:
+#        enabled: true
+#    tags:
+#      application: ${spring.application.name}
 
 ## 日志配置
 logging:
