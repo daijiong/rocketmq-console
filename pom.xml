@@ -327,14 +327,14 @@
         </profile>
         <!-- 测试 -->
         <profile>
-            <id>dj_test</id>
+            <id>dj</id>
             <properties>
                 <!--当前环境-->
-                <profile.name>dj_test</profile.name>
+                <profile.name>dj</profile.name>
                 <!--Nacos配置中心地址-->
                 <config.server-addr>http://47.100.227.235:8848</config.server-addr>
                 <!--Nacos配置中心命名空间,用于支持多环境.这里必须使用ID，不能使用名称,默认为空-->
-                <config.namespace>14bfcf8f-e5c9-4d63-9d0f-244023f9b8fd</config.namespace>
+                <config.namespace>8f52b2b6-a26b-4c07-88ef-9e30c3bb9498</config.namespace>
                 <!--Nacos服务发现地址-->
                 <discovery.server-addr>http://47.100.227.235:8848</discovery.server-addr>
             </properties>
